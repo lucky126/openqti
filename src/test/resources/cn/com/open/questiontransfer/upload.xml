@@ -1,0 +1,17 @@
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.open.com.cn/schemas/exam/openqti_v1" identifier="e339effb-a8e0-4b92-aa46-e17cad0a6433" QuestionAnalysis="上传题解析" title="这是个上传题" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="string">
+        <correctResponse>
+            <value />
+        </correctResponse>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <uploadInteraction responseIdentifier="RESPONSE">
+            <prompt>这是个上传题</prompt>
+        </uploadInteraction>
+    </itemBody>
+</assessmentItem>

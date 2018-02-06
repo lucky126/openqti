@@ -1,0 +1,17 @@
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.open.com.cn/schemas/exam/openqti_v1" identifier="dfbbc493-5796-4fa7-94db-0066b529bef1" title="The doctors dec" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="string">
+        <correctResponse>
+            <value>医生们决定亲自去看看这个奇怪的人。</value>
+        </correctResponse>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <extendedTextInteraction responseIdentifier="RESPONSE" expectedLength="0">
+            <prompt>The doctors decided to see this strange man themselves</prompt>
+        </extendedTextInteraction>
+    </itemBody>
+</assessmentItem>

@@ -1,0 +1,36 @@
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.open.com.cn/schemas/exam/openqti_v1" identifier="acbc9d0b-a927-4af1-83c0-010047f2b093" QuestionAnalysis="解析1" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE" cardinality="multiple" baseType="directedPair">
+        <mapping lowerBound="0" upperBound="1" defaultValue="0">
+            <mapEntry mapKey="7abb8ae6-040a-4b3c-bbcc-333b4e0589ba A" mappedValue="0.3333" />
+            <mapEntry mapKey="54c61e2d-91c9-4d6d-a8b1-a9b232f00236 B" mappedValue="0.3333" />
+            <mapEntry mapKey="daf29854-933c-46c3-9ac8-b3c17e616ab6 A" mappedValue="0.3333" />
+        </mapping>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <matchInteraction responseIdentifier="RESPONSE" shuffle="false" maxAssociations="0">
+            <prompt />
+            <simpleMatchSet>
+                <simpleAssociableChoice identifier="_x0037_abb8ae6-040a-4b3c-bbcc-333b4e0589ba" matchMax="5">槟榔的功效是</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="_x0035_4c61e2d-91c9-4d6d-a8b1-a9b232f00236" matchMax="5">苦桔皮的功效是</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="daf29854-933c-46c3-9ac8-b3c17e616ab6" matchMax="5">使君子的功效是</simpleAssociableChoice>
+            </simpleMatchSet>
+            <simpleMatchSet>
+                <simpleAssociableChoice identifier="A" matchMax="3">杀虫消积</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="B" matchMax="3">杀虫疗癣</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="C" matchMax="3">杀虫活血</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="D" matchMax="3">杀虫止血</simpleAssociableChoice>
+                <simpleAssociableChoice identifier="E" matchMax="3">杀虫涩肠</simpleAssociableChoice>
+            </simpleMatchSet>
+        </matchInteraction>
+    </itemBody>
+    <responseProcessing>
+        <setOutcomeValue identifier="SCORE">
+            <mapResponse identifier="RESPONSE" />
+        </setOutcomeValue>
+    </responseProcessing>
+</assessmentItem>

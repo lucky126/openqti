@@ -1,0 +1,62 @@
+buildscript {
+	ext {
+		springBootVersion = '1.5.6.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+	maven {
+		name 'open'
+		url "http://maven.open.com.cn/repository/maven-public/"
+	}
+
+	maven {
+		name 'aliyun'
+		url "http://maven.aliyun.com/nexus/content/groups/public"
+	}
+
+	mavenCentral()
+}
+
+ext {
+	springCloudVersion = 'Dalston.RELEASE'
+}
+
+dependencies {
+	compile('org.springframework.boot:spring-boot-starter')
+	compile('org.springframework.cloud:spring-cloud-starter-consul-discovery')
+	compile('org.springframework.cloud:spring-cloud-starter-feign')
+
+	compile('org.springframework.boot:spring-boot-starter-actuator')
+	//热部署
+	compile("org.springframework.boot:spring-boot-devtools")
+
+	compile('cn.com.open.itembank.itembank_common:itembank_common:0.1.01')
+
+	testCompile('org.springframework.boot:spring-boot-starter-test')
+	testCompile('org.springframework.restdocs:spring-restdocs-mockmvc')
+}
+
+
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+	}
+}
+
+bootRun {
+	addResources = true
+}

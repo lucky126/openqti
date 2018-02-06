@@ -1,0 +1,80 @@
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.open.com.cn/schemas/exam/openqti_v1" identifier="741b1462-74db-4a1c-b942-ffe50daafb1a" title="" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE_1" cardinality="single" baseType="identifier">
+        <correctResponse>
+            <value>B</value>
+        </correctResponse>
+    </responseDeclaration>
+    <responseDeclaration identifier="RESPONSE_2" cardinality="single" baseType="identifier">
+        <correctResponse>
+            <value>C</value>
+        </correctResponse>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE_1" cardinality="single" baseType="float" normalMaximum="0.5">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <outcomeDeclaration identifier="SCORE_2" cardinality="single" baseType="float" normalMaximum="0.5">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <compositeInteraction shuffle="false">
+            <prompt>&lt;p&gt;个非官方大哥嘎嘎嘎嘎嘎嘎灌灌灌灌灌&lt;br&gt;&lt;/p&gt;</prompt>
+            <subItem QuestionAnalysis="&lt;p&gt;个非官方个&lt;br&gt;&lt;/p&gt;" Identifier="62f570c6-21c5-402c-afd4-d728f771cad8" sequenceIndex="1" itemType="singleChoice" subjective="false">
+                <choiceInteraction responseIdentifier="RESPONSE_1" shuffle="true" maxChoices="1">
+                    <prompt>&lt;p&gt;范德萨范德萨&lt;br&gt;&lt;/p&gt;</prompt>
+                    <simpleChoice identifier="A">&lt;p&gt;范德萨发的&lt;br&gt;&lt;/p&gt;</simpleChoice>
+                    <simpleChoice identifier="B">&lt;p&gt;发个&lt;br&gt;&lt;/p&gt;</simpleChoice>
+                    <simpleChoice identifier="C">&lt;p&gt;范德萨发生&lt;br&gt;&lt;/p&gt;</simpleChoice>
+                    <simpleChoice identifier="D">&lt;p&gt;发送到发送到&lt;br&gt;&lt;/p&gt;</simpleChoice>
+                </choiceInteraction>
+            </subItem>
+            <subItem QuestionAnalysis="&lt;p&gt;发大水&lt;br&gt;&lt;/p&gt;" Identifier="f88dd070-78b3-4000-b12f-7a2523dc200b" sequenceIndex="2" itemType="singleChoice" subjective="false">
+                <choiceInteraction responseIdentifier="RESPONSE_2" shuffle="true" maxChoices="1">
+                    <prompt>&lt;p&gt;发的所发生的&lt;br&gt;&lt;/p&gt;</prompt>
+                    <simpleChoice identifier="A">&lt;p&gt;复古风格&lt;br&gt;&lt;/p&gt;</simpleChoice>
+                    <simpleChoice identifier="B">&lt;p&gt;g多个&lt;br&gt;&lt;/p&gt;</simpleChoice>
+                    <simpleChoice identifier="C">&lt;p&gt;大哥大法官&lt;br&gt;&lt;/p&gt;</simpleChoice>
+                    <simpleChoice identifier="D">&lt;p&gt;梵蒂冈地方&lt;br&gt;&lt;/p&gt;</simpleChoice>
+                </choiceInteraction>
+            </subItem>
+        </compositeInteraction>
+    </itemBody>
+    <responseProcessing>
+        <responseCondition>
+            <responseIf>
+                <match>
+                    <correct identifier="RESPONSE_1" />
+                    <variable identifier="RESPONSE_1" />
+                </match>
+                <setOutcomeValue identifier="SCORE_1">
+                    <baseValue baseType="float">0.5</baseValue>
+                </setOutcomeValue>
+            </responseIf>
+        </responseCondition>
+        <responseCondition>
+            <responseIf>
+                <match>
+                    <correct identifier="RESPONSE_2" />
+                    <variable identifier="RESPONSE_2" />
+                </match>
+                <setOutcomeValue identifier="SCORE_2">
+                    <baseValue baseType="float">0.5</baseValue>
+                </setOutcomeValue>
+            </responseIf>
+        </responseCondition>
+        <setOutcomeValue identifier="SCORE">
+            <sum>
+                <variable identifier="SCORE_1" />
+                <variable identifier="SCORE_2" />
+            </sum>
+        </setOutcomeValue>
+    </responseProcessing>
+</assessmentItem>

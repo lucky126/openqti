@@ -1,0 +1,26 @@
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.open.com.cn/schemas/exam/openqti_v1" identifier="ca62447f-5b57-4677-b815-00515faed8fa" title=" (湖南永州)山脉是地形的骨架" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE" cardinality="multiple" baseType="identifier">
+        <mapping lowerBound="0" upperBound="1" defaultValue="0">
+            <mapEntry mapKey="A." mappedValue="1" />
+        </mapping>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="0">
+            <prompt> (湖南永州)山脉是地形的骨架。图中a地形区是(    )&lt;img src="\UploadedFiles\Image\fc3b48c1-3771-483a-933a-03eb4431785c\20160118\4397a3f1-b68b-483a-ad35-ab1ae9339e53.png" /&gt;</prompt>
+            <simpleChoice identifier="A.">黄土高原</simpleChoice>
+            <simpleChoice identifier="B.">内蒙古高原</simpleChoice>
+            <simpleChoice identifier="C.">华北平原</simpleChoice>
+            <simpleChoice identifier="D.">东北平原</simpleChoice>
+        </choiceInteraction>
+    </itemBody>
+    <responseProcessing>
+        <setOutcomeValue identifier="SCORE">
+            <mapResponse identifier="RESPONSE" />
+        </setOutcomeValue>
+    </responseProcessing>
+</assessmentItem>

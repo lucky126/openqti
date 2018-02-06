@@ -1,0 +1,34 @@
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.open.com.cn/schemas/exam/openqti_v1" identifier="e59cb40d-d07b-4e8b-889f-00284e6b342d" QuestionAnalysis="解析1" title="所谓( )是指用户不能直接干预" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="identifier">
+        <correctResponse>
+            <value>A</value>
+        </correctResponse>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <choiceInteraction responseIdentifier="RESPONSE" shuffle="true" maxChoices="1">
+            <prompt>所谓( )是指用户不能直接干预其作业的运行,而事先把对系统的请求用作业控制语言写成一份作业说明书,连同作业的程序和数据一起提交给系统。</prompt>
+            <simpleChoice identifier="A">脱机用户</simpleChoice>
+            <simpleChoice identifier="B">普通用户</simpleChoice>
+            <simpleChoice identifier="C">联机用户</simpleChoice>
+            <simpleChoice identifier="D">系统管理员</simpleChoice>
+        </choiceInteraction>
+    </itemBody>
+    <responseProcessing>
+        <responseCondition>
+            <responseIf>
+                <match>
+                    <correct identifier="RESPONSE" />
+                    <variable identifier="RESPONSE" />
+                </match>
+                <setOutcomeValue identifier="SCORE">
+                    <baseValue baseType="float">1</baseValue>
+                </setOutcomeValue>
+            </responseIf>
+        </responseCondition>
+    </responseProcessing>
+</assessmentItem>

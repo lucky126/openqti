@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assessmentResult
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns="http://www.open.com.cn/schemas/exam/openqti_v1">
+    <context>
+        <identification
+                xmlns="http://www.imsglobal.org/xsd/imslip_v1p0">
+            <ext_identification>
+                <value fieldIdentifier="resultIdentifier">670721cc-b31b-42b0-b8c7-ea6d6d616d91</value>
+                <value fieldIdentifier="examineeID">37983</value>
+                <value fieldIdentifier="examCardNo">8800103</value>
+                <value fieldIdentifier="examineeName">王 文娟</value>
+                <value fieldIdentifier="examSubjectID">189</value>
+                <value fieldIdentifier="examSubjectName">SCCRA（上）</value>
+                <value fieldIdentifier="examPlanID">52</value>
+                <value fieldIdentifier="examPlanName">201507CCRA注册信贷分析师资格认证考试(模拟)</value>
+                <value fieldIdentifier="examSiteID">348</value>
+                <value fieldIdentifier="examSiteName">陕西工贸培训学院</value>
+                <value fieldIdentifier="examRoomID">467</value>
+                <value fieldIdentifier="examRoomName">1310</value>
+                <value fieldIdentifier="examSceneID">139</value>
+                <value fieldIdentifier="examSceneName">第一场</value>
+                <value fieldIdentifier="organizerID">1</value>
+                <value fieldIdentifier="organizerName">网考服务中心</value>
+            </ext_identification>
+        </identification>
+    </context>
+    <testResult identifier="0dbbfb7c-b01f-e511-ba8c-0050568c0ed6" datestamp="2015-07-23T15:25:43.6972577+08:00">
+        <responseVariable identifier="responseDuration" cardinality="single" baseType="responseDuration">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0">
+            <value>0</value>
+        </outcomeVariable>
+    </testResult>
+    <itemResult identifier="db29292e-59bd-40d9-b080-bc533ec5a2ec" sequenceIndex="1" datestamp="2015-07-23T15:25:43.6972577+08:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier" choiceSequence="A B C D">
+            <correctResponse>
+                <value>A</value>
+            </correctResponse>
+            <candidateResponse />
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="100">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+</assessmentResult>

@@ -1,0 +1,2963 @@
+<assessmentResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.open.com.cn/schemas/exam/openqti_v1">
+    <context>
+        <identification xmlns="http://www.imsglobal.org/xsd/imslip_v1p0">
+            <ext_identification>
+                <value fieldIdentifier="resultIdentifier">768a3a65-9563-e611-ba8c-0050568c0ed6</value>
+                <value fieldIdentifier="examineeID">53442</value>
+                <value fieldIdentifier="examCardNo">2930155</value>
+                <value fieldIdentifier="examineeName">贺燕</value>
+                <value fieldIdentifier="examSubjectID">269</value>
+                <value fieldIdentifier="examSubjectName">实施财务供应链U8初级</value>
+                <value fieldIdentifier="examPlanID">86</value>
+                <value fieldIdentifier="examPlanName">用友2017年4月6日长沙考试</value>
+                <value fieldIdentifier="examSiteID">569</value>
+                <value fieldIdentifier="examSiteName">湖南广播电视大学直属学院</value>
+                <value fieldIdentifier="examRoomID">721</value>
+                <value fieldIdentifier="examRoomName">506</value>
+                <value fieldIdentifier="examSceneID">179</value>
+                <value fieldIdentifier="examSceneName">第一场</value>
+                <value fieldIdentifier="organizerID">0</value>
+                <value fieldIdentifier="organizerName" />
+            </ext_identification>
+        </identification>
+    </context>
+    <testResult identifier="768a3a65-9563-e611-ba8c-0050568c0ed6" datestamp="2017-04-06T13:50:37.2217191+09:00">
+        <responseVariable identifier="responseDuration" cardinality="single" baseType="responseDuration">
+            <candidateResponse>
+                <value>49</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0">
+            <value>65.5</value>
+        </outcomeVariable>
+    </testResult>
+    <itemResult identifier="c37f2bea-3acb-470d-873c-11c6645c7d1a" sequenceIndex="1" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="adb59147-74cf-4617-95a7-117b94422099" sequenceIndex="2" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="isMarked" cardinality="single" baseType="boolean">
+            <candidateResponse>
+                <value>True</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="688e9fa1-017a-448f-85e7-d20244711168" sequenceIndex="3" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="0d827c13-1ed9-4ce0-8b37-ecbeec98303b" sequenceIndex="4" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="isMarked" cardinality="single" baseType="boolean">
+            <candidateResponse>
+                <value>True</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="45471c41-e4a7-4522-b70d-610343736816" sequenceIndex="5" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="cc62c365-dfc7-4a1b-9fd4-59fc120cd0dd" sequenceIndex="6" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="b326aed6-01d9-44fa-8f30-c7b777042fff" sequenceIndex="7" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="7e00407d-d3b0-4de3-91ac-7f1f17a377db" sequenceIndex="8" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="c29d8fbd-c264-4e74-9808-c04c2ede27cd" sequenceIndex="9" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="7b943bed-28b0-4b15-9daa-8dd4a55963a6" sequenceIndex="10" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="6baf60ad-4a84-4f43-9cca-93d3aae1a001" sequenceIndex="11" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="b6cc85a9-3aab-4843-bed9-fbe8d1615bcf" sequenceIndex="12" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="777a34fd-9305-46df-b36f-48ee7be66fbc" sequenceIndex="13" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="828ac1f5-9852-4aff-b461-f7dbf71a2455" sequenceIndex="14" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="1e512459-fed3-4670-a3ce-3312b12231e4" sequenceIndex="15" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="c361bf98-f2ea-495d-98e8-2e7b22de30c5" sequenceIndex="16" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="edc5c1c0-a647-4e85-9185-ebfb1e8fd7e9" sequenceIndex="17" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="c4708346-eaa5-4016-bff6-740ecad16db7" sequenceIndex="18" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="8b342694-351c-4734-bbec-f6636b349557" sequenceIndex="19" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="400fba4d-059a-4925-9223-07674b3a1889" sequenceIndex="20" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="bd0bb3cb-3452-410a-9c62-b19ea9e1be2b" sequenceIndex="21" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="9b91ca2a-d678-41c7-bfbc-f0994318ecbb" sequenceIndex="22" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="333970d7-6e74-4938-a3ac-493fe810c0b4" sequenceIndex="23" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="d996d359-bd53-458a-a19a-111ae15df6ce" sequenceIndex="24" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="15d70dfe-48cf-4e12-8f3c-c0494e44bc69" sequenceIndex="25" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="14bf229c-cdfa-4fec-b8cf-a9ba8ad925a8" sequenceIndex="26" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="isMarked" cardinality="single" baseType="boolean">
+            <candidateResponse>
+                <value>True</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="c7fe68eb-2301-4539-8969-777159453633" sequenceIndex="27" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="2dfd1a11-6046-4705-a730-730854342864" sequenceIndex="28" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="3bbc4ba9-e0a8-4c2b-95fd-ec12ad8e96c1" sequenceIndex="29" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="c627499d-0179-4a3d-8d0d-815db9947266" sequenceIndex="30" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="88c5c603-0774-40d4-8bb9-50ad09d07da7" sequenceIndex="31" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="e7f85f96-c4a0-4db7-9c7a-b20bb503ac30" sequenceIndex="32" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="12d221a8-b53c-46e9-8576-f2ef03596bc2" sequenceIndex="33" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="isMarked" cardinality="single" baseType="boolean">
+            <candidateResponse>
+                <value>True</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="fed149af-6f7e-49c5-b37a-76173b7be475" sequenceIndex="34" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="62d729cb-14c0-478f-86c0-8f44f6063db9" sequenceIndex="35" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="63c19e90-00d7-452d-b0b3-15c56ef750a9" sequenceIndex="36" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="af7f8e0f-8873-4c4a-9f0c-6ba81cd38874" sequenceIndex="37" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="03d17a35-da61-433f-8234-5c5250f2df7f" sequenceIndex="38" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="cfc015ea-7887-47c4-bca7-65fdce1c9470" sequenceIndex="39" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="9091c543-a1ce-45ec-80af-262a5ba5de52" sequenceIndex="40" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="9eb9d0e9-a377-44b1-9a6d-0191d5fa55a8" sequenceIndex="41" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="4878e5ea-9126-4729-ad8a-7eb65eeb0d0c" sequenceIndex="42" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="34250a12-2d1f-49d3-a253-ab6c5094c26d" sequenceIndex="43" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="ca567924-2a9b-4817-937a-ae040f05aef1" sequenceIndex="44" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="417d8e8b-b2ad-4516-b88e-a3851ae1c736" sequenceIndex="45" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="a78a574a-e66c-47a3-9e74-baeb87c0fd1d" sequenceIndex="46" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="fbc5fb1a-cb81-4a19-b3de-eb9af9d3321c" sequenceIndex="47" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="a7067fab-eaca-4509-8273-312e1190538c" sequenceIndex="48" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="827f011b-cd62-43eb-ab3a-596966dbe202" sequenceIndex="49" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="df2d89c6-22b4-4621-b9cd-37ac54189b02" sequenceIndex="50" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="f927913d-8f5a-43ef-9c3f-fce265b89e40" sequenceIndex="51" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="2c86fc99-06ba-41c9-b649-aae0ddb5d3d0" sequenceIndex="52" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="3c449316-2ced-47e3-985c-a7854859b63b" sequenceIndex="53" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="0c2a1016-45f9-4a5a-aab5-324567e042d9" sequenceIndex="54" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="428b19ac-b378-435d-a04a-a1170a3192dd" sequenceIndex="55" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="59371890-f16c-4490-8020-143a99ea387f" sequenceIndex="56" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="bb3fcc76-380e-44e2-a19c-e44dc0dea631" sequenceIndex="57" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="4456f885-3f4a-4388-af49-c15ef180bbbe" sequenceIndex="58" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="afc75a3e-9a8a-4b78-8497-85c6bec3e992" sequenceIndex="59" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="04811588-a1da-4d11-8c24-8bbd66dcbea1" sequenceIndex="60" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="0.5">
+            <value>0.5</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="a00a6ad3-3f0e-4f8a-9cb4-c91dd39f42bf" sequenceIndex="61" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="05475102-e5de-4f7a-862d-7272b0e80bb5" sequenceIndex="62" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="4bdcadf0-de6b-4b33-9995-87393d38e0f9" sequenceIndex="63" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="0aa512e9-9ddd-45de-a465-4956cdd13dbd" sequenceIndex="64" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="5c402eb8-8a6d-4571-b85f-445b7b860aef" sequenceIndex="65" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="179a3e33-8bb2-4761-a8f8-bc9125d35dc2" sequenceIndex="66" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="5a345ad4-3192-48fa-bf6b-051b62b3f52d" sequenceIndex="67" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="2c3b0120-5c8b-4955-90ac-c61459fab905" sequenceIndex="68" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="c79d9bfb-eea5-4dd6-8e59-70f7fee7bf94" sequenceIndex="69" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="3d648d46-3cb3-4767-b444-1275ecc741a4" sequenceIndex="70" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="9c656b50-010c-4c33-a146-b4f20ae10e43" sequenceIndex="71" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="880fd8e0-7114-4d8d-8d78-925a66f0f826" sequenceIndex="72" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="b5f9295d-cb41-4f20-9c92-08c25d45570f" sequenceIndex="73" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="77ac9826-e75c-430d-98d6-c9721db4c549" sequenceIndex="74" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="afe8d6dd-9a99-444e-a381-f469db76cf54" sequenceIndex="75" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="186683d3-f8fd-418c-93e9-6e5a96346e35" sequenceIndex="76" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="beb61228-f8b6-4cd2-8728-4afde53b5345" sequenceIndex="77" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="106635c1-740f-4030-8b67-9a98c88677c7" sequenceIndex="78" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="107ebf82-88c0-47a4-89b1-8f93c94a940e" sequenceIndex="79" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="851b0535-15d9-4df1-8ca8-1a777d2538de" sequenceIndex="80" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="477ac928-a752-4d71-b071-becb6cf326eb" sequenceIndex="81" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="84673642-a276-4709-90cd-503ec08e8d9d" sequenceIndex="82" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="a11312cf-01dd-485d-8c01-0dcb3d9c5cbd" sequenceIndex="83" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="6f1a9931-9410-4bfe-8e31-b0cf38d05d37" sequenceIndex="84" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="4219858b-6dc4-49ad-81de-99937d8510da" sequenceIndex="85" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="2120b8fc-30bf-4534-979e-91e3d8d37435" sequenceIndex="86" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="6426ad0a-86e7-4233-a5b4-145dcabad58d" sequenceIndex="87" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="389a7793-8330-4f7a-9000-c199f8bb19cc" sequenceIndex="88" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="e3bb0556-7142-473e-a2f9-b6760b70fbad" sequenceIndex="89" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="71f24e3c-68ee-4a6d-8181-7498f555cdd8" sequenceIndex="90" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="d17b94a9-7b88-47a1-a4cd-447c9bca3a68" sequenceIndex="91" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="0ac119c1-5625-477f-b016-acba14cbe2a8" sequenceIndex="92" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="dc0212c7-0905-40a9-bc65-412abc7a1373" sequenceIndex="93" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="2fb59fd9-5388-4c4b-b81c-c78a070309b5" sequenceIndex="94" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="b59740c2-fac8-48f0-8ea7-3b5585f93653" sequenceIndex="95" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="68e9a914-817d-46d7-b825-a7783886d251" sequenceIndex="96" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="b7619e16-4809-414e-a8c1-d138e3a7cce6" sequenceIndex="97" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="0ef73687-0afd-45c6-b69f-650c63cdb790" sequenceIndex="98" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="b48516d3-7e20-4530-af3d-6ac57939e0d7" sequenceIndex="99" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="5ad5f56d-9893-4a70-b1a7-cbb7d01e88c1" sequenceIndex="100" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="8db227dd-a1d4-47b6-9bec-a973077627f9" sequenceIndex="101" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="8e81746f-80f9-4437-a75e-0b1921981e18" sequenceIndex="102" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="3a3fa9d9-5c66-4f36-a80e-ad6aaeea46d6" sequenceIndex="103" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="4e7e811e-5efd-4851-86df-256286723138" sequenceIndex="104" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="65944174-dd10-4549-9992-819f37ec4d49" sequenceIndex="105" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>B</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>B</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="ba73e4c9-2d54-4003-bde7-4c94a79d1913" sequenceIndex="106" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="75d3bebe-5404-4052-94ac-d6723ffc7e66" sequenceIndex="107" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="1961c72e-16fe-4058-b83d-de6c0818ed06" sequenceIndex="108" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="b7dfa2e6-3e62-4f40-9ceb-225b2c9a84eb" sequenceIndex="109" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>C</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>C</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="6f2d31ea-0e80-4bb7-aa75-8286c654e150" sequenceIndex="110" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>D</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>A</value>
+                <value>B</value>
+                <value>D</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="93cb3a0b-3b3e-4f81-a735-c9e8d0f814d9" sequenceIndex="111" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>F</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>T</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="b72087b7-f75a-4cf6-a3d9-36fcfb5c5196" sequenceIndex="112" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>T</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>F</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="68c15b99-cfda-4c3e-9fa4-2c12293fef29" sequenceIndex="113" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>F</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>F</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="9daddbf8-341f-4853-bb1f-e15357e5bbc9" sequenceIndex="114" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>T</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>F</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="b98f7758-19b4-47d7-a2e1-c984c6d736a4" sequenceIndex="115" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>T</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>T</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="cc87fbed-60aa-429e-a1a2-7cdd506d71cf" sequenceIndex="116" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>F</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>F</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="ae5fd4d0-027e-4377-844e-5c5deb6bcbb1" sequenceIndex="117" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>F</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>F</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="ab6f62f8-e577-411a-a37a-c5daa42f8038" sequenceIndex="118" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>F</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>F</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="a024fc4a-5382-4c84-bed4-88fdf0ec5c5b" sequenceIndex="119" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>T</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>T</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="aa38f114-b704-49fb-a0e4-87d2a1138d3f" sequenceIndex="120" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>F</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>T</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="30c59abc-a8ad-4677-91bb-c2ba9d4c3179" sequenceIndex="121" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>F</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>T</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="d4224b39-c744-487e-8895-19f7a4a89b1e" sequenceIndex="122" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>T</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>T</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>completed</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="f2e8375a-2d6b-4960-bea9-077ba5db3bcb" sequenceIndex="123" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>T</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>T</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="eea0e4a7-2d70-4ad2-bf54-d20525a23ed3" sequenceIndex="124" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>T</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>T</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="72c27c8a-f05e-4934-b68e-6cde7d723dca" sequenceIndex="125" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>T</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>T</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="63ceaad8-9cee-4f37-bad3-102a52564874" sequenceIndex="126" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>F</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>F</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="60a9e3fc-da61-41be-9e96-5aa1daf5a1bb" sequenceIndex="127" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>T</value>
+            </correctResponse>
+            <candidateResponse>
+                <value>T</value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>1</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="1858a45f-0f47-464f-8d76-3b03236b0d90" sequenceIndex="128" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>T</value>
+            </correctResponse>
+            <candidateResponse>
+                <value></value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="17a06202-39a2-4a02-9d9f-d16f68dfba22" sequenceIndex="129" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>F</value>
+            </correctResponse>
+            <candidateResponse>
+                <value></value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+    <itemResult identifier="baefaebb-a499-40d5-84ee-6193231ce36d" sequenceIndex="130" datestamp="2017-04-06T15:29:58.9984126+09:00" sessionStatus="initial">
+        <responseVariable identifier="numAttempts" cardinality="single" baseType="integer">
+            <candidateResponse>
+                <value>0</value>
+            </candidateResponse>
+        </responseVariable>
+        <responseVariable identifier="RESPONSE" cardinality="single" baseType="identifier">
+            <correctResponse>
+                <value>T</value>
+            </correctResponse>
+            <candidateResponse>
+                <value></value>
+            </candidateResponse>
+        </responseVariable>
+        <outcomeVariable identifier="completionStatus" cardinality="single" baseType="identifier">
+            <value>not_attempted</value>
+        </outcomeVariable>
+        <outcomeVariable identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+            <value>0</value>
+        </outcomeVariable>
+    </itemResult>
+</assessmentResult>

@@ -1,0 +1,37 @@
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.open.com.cn/schemas/exam/openqti_v1" identifier="8e72099c-8258-4c53-b1a2-036a226122f6" QuestionAnalysis="排序题的解析" title="这是个排序题" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE" cardinality="ordered" baseType="identifier">
+        <correctResponse>
+            <value>B</value>
+            <value>A</value>
+            <value>C</value>
+            <value>D</value>
+        </correctResponse>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <orderInteraction responseIdentifier="RESPONSE" shuffle="true" orientation="horizontal">
+            <prompt>这是个排序题</prompt>
+            <simpleChoice identifier="A">这是第一个</simpleChoice>
+            <simpleChoice identifier="B">这是第二个</simpleChoice>
+            <simpleChoice identifier="C">这是第三个</simpleChoice>
+            <simpleChoice identifier="D">这是第四个</simpleChoice>
+        </orderInteraction>
+    </itemBody>
+    <responseProcessing>
+        <responseCondition>
+            <responseIf>
+                <match>
+                    <correct identifier="RESPONSE" />
+                    <variable identifier="RESPONSE" />
+                </match>
+                <setOutcomeValue identifier="SCORE">
+                    <baseValue baseType="float">1</baseValue>
+                </setOutcomeValue>
+            </responseIf>
+        </responseCondition>
+    </responseProcessing>
+</assessmentItem>

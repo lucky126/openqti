@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    consul:
+      host: 10.96.142.132
+      port: 8500
+      enabled: true
+      discovery:
+        healthCheckPath: /health
+        healthCheckInterval: 15s
+        instance-id: item-qti-service
+        hostname: 10.98.4.151
+        port: 8099
+  application:
+     name: item-qti-service
+server:
+  port: 8099

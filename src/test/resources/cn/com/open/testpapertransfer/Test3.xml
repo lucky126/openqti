@@ -1,0 +1,104 @@
+<assessmentTest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.open.com.cn/schemas/exam/openqti_v1" identifier="e7cddee9-b1b4-43a3-b6dd-0be13373e78c" title="yy823">
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" />
+    <testPart identifier="P01" navigationMode="nonlinear" submissionMode="simultaneous">
+        <rubricBlock view="candidate">
+            <prompt />
+        </rubricBlock>
+        <endBlock />
+        <assessmentSection identifier="S1-3" title="交际用语" visible="true" score="15" itemCount="5" optionalItemCount="0" mediaType="0" optionalItemScore="0">
+            <endBlock />
+            <ordering shuffle="false" />
+            <rubricBlock view="candidate">
+                <prompt />
+            </rubricBlock>
+            <assessmentItemRef identifier="fc35b88f-07fb-48ad-b5d3-23e08325c028" href="AssessmentItems/ASI_fc35b88f-07fb-48ad-b5d3-23e08325c028.xml" type="singleChoice" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="3">3</weight>
+            </assessmentItemRef>
+            <assessmentItemRef identifier="_x0030_38dd13c-cfa5-443d-bcc3-ab5442187d01" href="AssessmentItems/ASI_038dd13c-cfa5-443d-bcc3-ab5442187d01.xml" type="singleChoice" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="3">3</weight>
+            </assessmentItemRef>
+            <assessmentItemRef identifier="_x0039_7321f7b-58ec-4f0c-940c-c9cc99f89045" href="AssessmentItems/ASI_97321f7b-58ec-4f0c-940c-c9cc99f89045.xml" type="singleChoice" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="3">3</weight>
+            </assessmentItemRef>
+            <assessmentItemRef identifier="a2594bfa-31d7-4c6a-a948-b4dd24fd9ca0" href="AssessmentItems/ASI_a2594bfa-31d7-4c6a-a948-b4dd24fd9ca0.xml" type="singleChoice" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="3">3</weight>
+            </assessmentItemRef>
+            <assessmentItemRef identifier="e725d939-42c9-42b3-9138-77cabe96d320" href="AssessmentItems/ASI_e725d939-42c9-42b3-9138-77cabe96d320.xml" type="singleChoice" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="3">3</weight>
+            </assessmentItemRef>
+        </assessmentSection>
+        <assessmentSection identifier="S5" title="阅读理解" visible="true" score="20" itemCount="2" optionalItemCount="0" mediaType="0" optionalItemScore="0">
+            <endBlock />
+            <ordering shuffle="false" />
+            <rubricBlock view="candidate">
+                <prompt />
+            </rubricBlock>
+            <assessmentItemRef identifier="_x0031_d0061bc-9f13-47be-8602-188d436f94d4" href="AssessmentItems/ASI_1d0061bc-9f13-47be-8602-188d436f94d4.xml" type="readingComprehension" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="10">10</weight>
+            </assessmentItemRef>
+            <assessmentItemRef identifier="_x0035_a8a9ecb-325f-4d59-8cc4-ef5e5113f536" href="AssessmentItems/ASI_5a8a9ecb-325f-4d59-8cc4-ef5e5113f536.xml" type="readingComprehension" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="10">10</weight>
+            </assessmentItemRef>
+        </assessmentSection>
+        <assessmentSection identifier="S1-1" title="词汇与语法" visible="true" score="10" itemCount="5" optionalItemCount="0" mediaType="0" optionalItemScore="0">
+            <endBlock />
+            <ordering shuffle="false" />
+            <rubricBlock view="candidate">
+                <prompt />
+            </rubricBlock>
+            <assessmentItemRef identifier="d900c235-20df-4550-b78a-631a407a2e3b" href="AssessmentItems/ASI_d900c235-20df-4550-b78a-631a407a2e3b.xml" type="singleChoice" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="2">2</weight>
+            </assessmentItemRef>
+            <assessmentItemRef identifier="_x0033_ebbac16-3794-4937-a8f7-1bccde855331" href="AssessmentItems/ASI_3ebbac16-3794-4937-a8f7-1bccde855331.xml" type="singleChoice" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="2">2</weight>
+            </assessmentItemRef>
+            <assessmentItemRef identifier="fd97fa23-09e3-411f-a854-6e3d49dbb23a" href="AssessmentItems/ASI_fd97fa23-09e3-411f-a854-6e3d49dbb23a.xml" type="singleChoice" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="2">2</weight>
+            </assessmentItemRef>
+            <assessmentItemRef identifier="_x0038_d87eaf8-6bad-4432-8d3c-2118c94e8b0c" href="AssessmentItems/ASI_8d87eaf8-6bad-4432-8d3c-2118c94e8b0c.xml" type="singleChoice" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="2">2</weight>
+            </assessmentItemRef>
+            <assessmentItemRef identifier="d8a1f32d-3e5a-40f0-a218-ea55dc129665" href="AssessmentItems/ASI_d8a1f32d-3e5a-40f0-a218-ea55dc129665.xml" type="singleChoice" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="2">2</weight>
+            </assessmentItemRef>
+        </assessmentSection>
+        <assessmentSection identifier="S7" title="完型填空" visible="true" score="15" itemCount="1" optionalItemCount="0" mediaType="0" optionalItemScore="0">
+            <endBlock />
+            <ordering shuffle="false" />
+            <rubricBlock view="candidate">
+                <prompt />
+            </rubricBlock>
+            <assessmentItemRef identifier="_x0031_d4cbb1e-0fd8-4878-9c5f-b70d4a59906d" href="AssessmentItems/ASI_1d4cbb1e-0fd8-4878-9c5f-b70d4a59906d.xml" type="cloze" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="15">15</weight>
+            </assessmentItemRef>
+        </assessmentSection>
+        <assessmentSection identifier="S6" title="问答题" visible="true" score="40" itemCount="7" optionalItemCount="0" mediaType="0" optionalItemScore="0">
+            <endBlock />
+            <ordering shuffle="false" />
+            <rubricBlock view="candidate">
+                <prompt />
+            </rubricBlock>
+            <assessmentItemRef identifier="_x0037_3b38cb0-21b7-4e61-990f-6b392a302da6" href="AssessmentItems/ASI_73b38cb0-21b7-4e61-990f-6b392a302da6.xml" type="extendedText" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="5">5</weight>
+            </assessmentItemRef>
+            <assessmentItemRef identifier="_x0039_e80aeed-f6f0-4a28-a74d-3ad1674141f2" href="AssessmentItems/ASI_9e80aeed-f6f0-4a28-a74d-3ad1674141f2.xml" type="extendedText" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="5">5</weight>
+            </assessmentItemRef>
+            <assessmentItemRef identifier="ea00bcde-ddd9-4760-9804-430fc21e41e5" href="AssessmentItems/ASI_ea00bcde-ddd9-4760-9804-430fc21e41e5.xml" type="extendedText" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="5">5</weight>
+            </assessmentItemRef>
+            <assessmentItemRef identifier="_x0033_9485c54-8e31-441d-962e-dea1e1ccbeb4" href="AssessmentItems/ASI_39485c54-8e31-441d-962e-dea1e1ccbeb4.xml" type="extendedText" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="5">5</weight>
+            </assessmentItemRef>
+            <assessmentItemRef identifier="_x0037_6bd5599-6985-44d0-ba80-dd5610b6f762" href="AssessmentItems/ASI_76bd5599-6985-44d0-ba80-dd5610b6f762.xml" type="extendedText" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="5">5</weight>
+            </assessmentItemRef>
+            <assessmentItemRef identifier="_x0037_ddc4c54-dd1f-41f4-a55a-c976b8dde1e6" href="AssessmentItems/ASI_7ddc4c54-dd1f-41f4-a55a-c976b8dde1e6.xml" type="extendedText" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="5">5</weight>
+            </assessmentItemRef>
+            <assessmentItemRef identifier="b87fbfca-ef28-4e16-98ad-1621b2b9b50f" href="AssessmentItems/ASI_b87fbfca-ef28-4e16-98ad-1621b2b9b50f.xml" type="extendedText" subjective="false" isExample="false" prepareDuration="0" responseDuration="0" promptShowDuration="0">
+                <weight identifier="WEIGHT" value="10">10</weight>
+            </assessmentItemRef>
+        </assessmentSection>
+    </testPart>
+</assessmentTest>

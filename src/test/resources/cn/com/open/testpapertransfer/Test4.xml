@@ -1,0 +1,108 @@
+<assessmentTest xmlns="http://www.open.com.cn/schemas/exam/openqti_v1" xmlns:ns2="http://www.w3.org/2001/XInclude" xmlns:ns3="http://www.imsglobal.org/xsd/imslip_v1p0" identifier="05450932-adeb-4ef8-9651-4ca9ba1d3386" title="17823">
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" />
+    <testPart identifier="P01" navigationMode="nonlinear" submissionMode="simultaneous">
+        <rubricBlock view="candidate" />
+        <endBlock />
+        <assessmentSection title="练习题" visible="true" identifier="S1" score="2524.8000000000015" itemCount="32" optionalItemCount="0" optionalItemScore="0.0" mediaType="0">
+            <rubricBlock view="candidate" />
+            <endBlock />
+            <ordering shuffle="true" />
+            <assessmentItemRef href="AssessmentItems/ASI_62067f42-d1f3-43d5-95cc-77c24307f417.xml" identifier="62067f42-d1f3-43d5-95cc-77c24307f417" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_dd2975d6-61d5-49a3-b323-0b015968c72b.xml" identifier="dd2975d6-61d5-49a3-b323-0b015968c72b" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_44ada9a7-f423-49b7-b949-d952b338fc3e.xml" identifier="44ada9a7-f423-49b7-b949-d952b338fc3e" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_a8357f75-901a-4f76-90a7-2f22070090a3.xml" identifier="a8357f75-901a-4f76-90a7-2f22070090a3" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_06f066d3-0980-45c1-af4b-e96f057ff161.xml" identifier="06f066d3-0980-45c1-af4b-e96f057ff161" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_9dae086d-04ac-46cc-9612-3b527eb2a768.xml" identifier="9dae086d-04ac-46cc-9612-3b527eb2a768" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_36a23112-512f-4c76-998a-02150bfe339a.xml" identifier="36a23112-512f-4c76-998a-02150bfe339a" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_e21336a1-e40d-402c-bca7-fb574cc9cb22.xml" identifier="e21336a1-e40d-402c-bca7-fb574cc9cb22" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_c4a48051-5ffd-4c7b-8fd8-9b6f80657a40.xml" identifier="c4a48051-5ffd-4c7b-8fd8-9b6f80657a40" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_8a2e4821-16eb-47cb-ba12-42d7427be7ef.xml" identifier="8a2e4821-16eb-47cb-ba12-42d7427be7ef" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_8dd965e4-a482-479f-9d45-f884fdcc1ed5.xml" identifier="8dd965e4-a482-479f-9d45-f884fdcc1ed5" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_0f9f188f-ac1e-4521-bb77-e05149103b33.xml" identifier="0f9f188f-ac1e-4521-bb77-e05149103b33" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_6295d087-c432-48a5-8c46-f4621634dac1.xml" identifier="6295d087-c432-48a5-8c46-f4621634dac1" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_0979f257-8b08-48b4-9984-a13561608d9a.xml" identifier="0979f257-8b08-48b4-9984-a13561608d9a" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_b1617e35-4121-49c9-840d-1e8dbc54a027.xml" identifier="b1617e35-4121-49c9-840d-1e8dbc54a027" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_8dfe7ac4-b01e-4462-96ed-d845fa01c06a.xml" identifier="8dfe7ac4-b01e-4462-96ed-d845fa01c06a" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_0d1b46a4-8752-435a-b6a7-5f4b67622302.xml" identifier="0d1b46a4-8752-435a-b6a7-5f4b67622302" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_349ef19a-4573-46c4-b011-df103faef883.xml" identifier="349ef19a-4573-46c4-b011-df103faef883" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_f1d03fc0-4c77-4618-9ffd-f14e27a30b0b.xml" identifier="f1d03fc0-4c77-4618-9ffd-f14e27a30b0b" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_8bc8d979-e27a-4983-9a3e-107c5a407461.xml" identifier="8bc8d979-e27a-4983-9a3e-107c5a407461" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_44101c4d-f272-4eb1-b08f-d9058a721afa.xml" identifier="44101c4d-f272-4eb1-b08f-d9058a721afa" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_e4440119-a04a-408c-a0b2-b3355a92d119.xml" identifier="e4440119-a04a-408c-a0b2-b3355a92d119" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_74f748e0-6886-4f9d-8b82-6f156ef05d54.xml" identifier="74f748e0-6886-4f9d-8b82-6f156ef05d54" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_74170167-935d-43d6-9d28-e5d5065a6663.xml" identifier="74170167-935d-43d6-9d28-e5d5065a6663" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_e088f936-e281-44d8-a0c1-9c65b5ad141e.xml" identifier="e088f936-e281-44d8-a0c1-9c65b5ad141e" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_43ff6788-dd6b-49c8-854a-ee8dd374ad47.xml" identifier="43ff6788-dd6b-49c8-854a-ee8dd374ad47" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_710ff2ec-b7e0-4df4-af47-a63be2402fa8.xml" identifier="710ff2ec-b7e0-4df4-af47-a63be2402fa8" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_e46c1569-4288-44f8-854f-20dbfde29f70.xml" identifier="e46c1569-4288-44f8-854f-20dbfde29f70" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_ac0ca873-2069-475e-a672-e73dcc411e8a.xml" identifier="ac0ca873-2069-475e-a672-e73dcc411e8a" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_35c7d4c5-9e42-4e6d-b7fb-788f87fcee63.xml" identifier="35c7d4c5-9e42-4e6d-b7fb-788f87fcee63" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_a677c6b1-ef06-4617-b553-934d810bd9f3.xml" identifier="a677c6b1-ef06-4617-b553-934d810bd9f3" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+            <assessmentItemRef href="AssessmentItems/ASI_63276e88-e245-4ced-8bdb-bae87a666578.xml" identifier="63276e88-e245-4ced-8bdb-bae87a666578" subjective="false" difficulty="0.0" isExample="false" prepareDuration="0.0" responseDuration="0.0" promptShowDuration="0.0" type="SINGLECHOICE">
+                <weight identifier="WEIGHT" value="78.9" />
+            </assessmentItemRef>
+        </assessmentSection>
+    </testPart>
+</assessmentTest>

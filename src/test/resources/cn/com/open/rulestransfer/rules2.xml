@@ -1,0 +1,51 @@
+<assessmentRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.open.com.cn/schemas/exam/openrule_v1" identifier="f44d039c-49f0-e711-b5da-0050568c7d4e" totalScore="100" itemApplicationTypeIDList="1/2/4/3">
+    <part identifier="P01" navigationMode="linear" submissionMode="simultaneous" mediaType="1" score="80">
+        <instruction location="top">
+            <media xmlns="http://www.open.com.cn/schemas/exam/openqti_v1" mimeType="audio/mpeg" src="/openitembank/QuestionAttachments/201813134617897.mp3" duration="276" content="" repeatTimes="0" repeatInterval="0" />
+            <text>1</text>
+        </instruction>
+        <instruction location="foot">
+            <media xmlns="http://www.open.com.cn/schemas/exam/openqti_v1" mimeType="audio/mpeg" src="/openitembank/QuestionAttachments/201813134624865.mp3" duration="276" content="" repeatTimes="0" repeatInterval="0" />
+            <text>2</text>
+        </instruction>
+        <timeLimits xmlns="http://www.open.com.cn/schemas/exam/openqti_v1" minTime="889" maxTime="889" checkTime="60" expectedTime="1200" />
+        <section sequenceIndex="1" title="1" shuffle="false" itemCount="1" sectionScore="80" optionalItemCount="0" duration="277">
+            <instruction>
+                <media xmlns="http://www.open.com.cn/schemas/exam/openqti_v1" mimeType="audio/mpeg" src="/openitembank/QuestionAttachments/201813134653382.mp3" duration="276" content="" repeatTimes="0" repeatInterval="0" />
+                <text />
+            </instruction>
+            <itemGroup sequenceIndex="1" itemTypeID="1" subjectiveSearchScope="objective" subjective="false" itemCount="1" itemScore="80" itemApplicationTypeIDList="1/2/3/4" subItemCount="0" minDifficulty="1" maxDifficulty="10" responseDuration="0" repeatTimes="0" repeatInterval="0" minDuration="1" maxDuration="1">
+                <subjectScope>
+                    <subject subjectCode="2">
+                        <chapterScope>
+                            <chapterID>19</chapterID>
+                        </chapterScope>
+                    </subject>
+                </subjectScope>
+            </itemGroup>
+        </section>
+    </part>
+    <part identifier="P02" navigationMode="nonlinear" submissionMode="simultaneous" mediaType="0" score="20">
+        <instruction location="top">
+            <text />
+        </instruction>
+        <instruction location="foot">
+            <text />
+        </instruction>
+        <timeLimits xmlns="http://www.open.com.cn/schemas/exam/openqti_v1" minTime="1200" maxTime="1200" checkTime="0" expectedTime="0" />
+        <section sequenceIndex="1" title="2" shuffle="false" itemCount="1" sectionScore="20" optionalItemCount="0">
+            <instruction>
+                <text />
+            </instruction>
+            <itemGroup sequenceIndex="1" itemTypeID="1" subjectiveSearchScope="objective" subjective="false" itemCount="1" itemScore="20" itemApplicationTypeIDList="1" subItemCount="0" minDifficulty="1" maxDifficulty="10" responseDuration="0" repeatTimes="0" repeatInterval="0" minDuration="0" maxDuration="0">
+                <subjectScope>
+                    <subject subjectCode="2">
+                        <chapterScope>
+                            <chapterID>18</chapterID>
+                        </chapterScope>
+                    </subject>
+                </subjectScope>
+            </itemGroup>
+        </section>
+    </part>
+</assessmentRule>

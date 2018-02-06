@@ -1,0 +1,33 @@
+spring:
+  cloud:
+    config:
+      discovery:
+         enabled: true
+         serviceId: config-server
+      label: master
+      failfast: true
+    consul:
+      host: 10.100.136.33
+      port: 8500
+      discovery:
+        healthCheckPath: /health
+        healthCheckInterval: 15s
+        instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+        hostname: 10.98.4.151
+        port: 8099
+  application:
+     name: item-qti-service
+ribbon:
+  ReadTimeout: 600000
+  ConnectTimeout: 600000
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 1
+endpoints:
+    health:
+      sensitive: false
+    restart:
+      enabled: true
+    shutdown:
+      enabled: true
+server:
+  port: 8099

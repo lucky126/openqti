@@ -1,0 +1,44 @@
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.open.com.cn/schemas/exam/openqti_v1" identifier="dee300dd-7390-456d-b0b1-3f91bb68535c" title="十二指肠是指，介于胃与##之间，长度为##" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE_1" cardinality="single" baseType="identifier">
+        <mapping lowerBound="0" upperBound="1" defaultValue="0">
+            <mapEntry mapKey="空肠" mappedValue="1" />
+        </mapping>
+    </responseDeclaration>
+    <responseDeclaration identifier="RESPONSE_2" cardinality="single" baseType="identifier">
+        <mapping lowerBound="0" upperBound="1" defaultValue="0">
+            <mapEntry mapKey="20～25cm" mappedValue="1" />
+        </mapping>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <outcomeDeclaration identifier="SCORE_1" cardinality="single" baseType="float" normalMaximum="0.5">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <outcomeDeclaration identifier="SCORE_2" cardinality="single" baseType="float" normalMaximum="0.5">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <div>十二指肠是指，介于胃与&lt;textEntryInteraction responseIdentifier="RESPONSE_1" expectedLength="12"/&gt;之间，长度为&lt;textEntryInteraction responseIdentifier="RESPONSE_2" expectedLength="17"/&gt;</div>
+    </itemBody>
+    <responseProcessing>
+        <setOutcomeValue identifier="SCORE_1">
+            <mapResponse identifier="RESPONSE_1" />
+        </setOutcomeValue>
+        <setOutcomeValue identifier="SCORE_2">
+            <mapResponse identifier="RESPONSE_2" />
+        </setOutcomeValue>
+        <setOutcomeValue identifier="SCORE">
+            <sum>
+                <variable identifier="SCORE_1" />
+                <variable identifier="SCORE_2" />
+            </sum>
+        </setOutcomeValue>
+    </responseProcessing>
+</assessmentItem>

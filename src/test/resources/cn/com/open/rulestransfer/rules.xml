@@ -1,0 +1,23 @@
+<assessmentRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.open.com.cn/schemas/exam/openrule_v1" identifier="dc3d66a4-9af4-4020-92c5-faa3bea31d85" totalScore="10" itemApplicationTypeIDList="1b303c34-0c1d-426c-b907-9a6ffb06e343,6d4904f6-e1bb-4049-90f4-464b7edf919b,056eda04-cb70-4e4b-8d0b-807362d57329,829ec389-4f69-4225-a460-5b0a280d0337">
+    <part identifier="P01" navigationMode="nonlinear" mediaType="0" score="10">
+        <timeLimits xmlns="http://www.open.com.cn/schemas/exam/openqti_v1" minTime="0" maxTime="0" checkTime="0" expectedTime="0" />
+        <section sequenceIndex="1" title="单选题" shuffle="false" sectionScore="10" optionalItemCount="0">
+            <exampleItemGroup sequenceIndex="0">
+                <item identifier="28700add-11a7-4357-bc6c-6ca14d773eef" title="测试单选题0009999" itemTypeID="c6446486-b39d-4aab-9f5d-17dc0c7416a7" difficulty="0" chapterID="d09d7d23-aab3-4a84-b5d6-1ffd290dbcb6" />
+            </exampleItemGroup>
+            <mandatoryItemGroup sequenceIndex="1" />
+            <itemGroup sequenceIndex="1" itemTypeID="c6446486-b39d-4aab-9f5d-17dc0c7416a7" itemCount="1" itemScore="10" itemApplicationTypeIDList="1b303c34-0c1d-426c-b907-9a6ffb06e343,6d4904f6-e1bb-4049-90f4-464b7edf919b,056eda04-cb70-4e4b-8d0b-807362d57329,829ec389-4f69-4225-a460-5b0a280d0337" minDifficulty="0" maxDifficulty="1" minDuration="0" maxDuration="0">
+                <subjectScope>
+                    <subject>
+                        <chapterScope>
+                            <chapterID>6b590738-853f-467f-959a-04eedd392a80</chapterID>
+                            <chapterID>d7f93ec8-1eeb-4a48-856a-13d4d728bc57</chapterID>
+                            <chapterID>69a3dd67-cc96-4ba9-aaf2-ae2b85daac07</chapterID>
+                            <chapterID>d09d7d23-aab3-4a84-b5d6-1ffd290dbcb6</chapterID>
+                        </chapterScope>
+                    </subject>
+                </subjectScope>
+            </itemGroup>
+        </section>
+    </part>
+</assessmentRule>

@@ -1,0 +1,178 @@
+<assessmentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.open.com.cn/schemas/exam/openqti_v1" identifier="77520e97-908d-4516-83f5-fde39f23e991" QuestionAnalysis="1、细节题。“Fire can keep your house ① warm, give light and cook food.”火可以使房子变暖、照明或者煮饭。2、细节题。“But there are ② many interesting old stories about how a man or woman started a fire.”有很多关于人类怎样开始使用火的故事。3、细节题。“One is ③ about _ a man.一个是关于人的。”4、细节题。“Children sometimes ④ like to play with them.孩子们有时喜欢玩火。”5、细节题。“So you ⑤ must _ be careful with matches.所以你必须小心使用火柴。”" title="Fire can help people in m" adaptive="false" timeDependent="false">
+    <responseDeclaration identifier="RESPONSE_1" cardinality="single" baseType="identifier">
+        <correctResponse>
+            <value>C</value>
+        </correctResponse>
+    </responseDeclaration>
+    <responseDeclaration identifier="RESPONSE_2" cardinality="single" baseType="identifier">
+        <correctResponse>
+            <value>A</value>
+        </correctResponse>
+    </responseDeclaration>
+    <responseDeclaration identifier="RESPONSE_3" cardinality="single" baseType="identifier">
+        <correctResponse>
+            <value>E</value>
+        </correctResponse>
+    </responseDeclaration>
+    <responseDeclaration identifier="RESPONSE_4" cardinality="single" baseType="identifier">
+        <correctResponse>
+            <value>B</value>
+        </correctResponse>
+    </responseDeclaration>
+    <responseDeclaration identifier="RESPONSE_5" cardinality="single" baseType="identifier">
+        <correctResponse>
+            <value>D</value>
+        </correctResponse>
+    </responseDeclaration>
+    <outcomeDeclaration identifier="SCORE_1" cardinality="single" baseType="float" normalMaximum="0.2">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <outcomeDeclaration identifier="SCORE_2" cardinality="single" baseType="float" normalMaximum="0.2">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <outcomeDeclaration identifier="SCORE_3" cardinality="single" baseType="float" normalMaximum="0.2">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <outcomeDeclaration identifier="SCORE_4" cardinality="single" baseType="float" normalMaximum="0.2">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <outcomeDeclaration identifier="SCORE_5" cardinality="single" baseType="float" normalMaximum="0.2">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" normalMaximum="1">
+        <defaultValue>
+            <value>0</value>
+        </defaultValue>
+    </outcomeDeclaration>
+    <itemBody>
+        <compositeInteraction shuffle="false">
+            <prompt>Fire can help people in many ways. But it can also be very harmful. Fire can keep your house &lt;clozeGap responseIdentifier=""/&gt;, give light and cook food. But fire can burn things, too. Big fire can burn trees, houses, animals or people. Nobody knows how people began to use fire. But there are &lt;clozeGap responseIdentifier=""/&gt; interesting old stories about how a man or woman started a fire. One is &lt;clozeGap responseIdentifier=""/&gt; a man. The man lived a very long time ago. He went up the sun and took fire down. Today people know how to make a fire with matches. Children sometimes &lt;clozeGap responseIdentifier=""/&gt; to play with them. But matches can be very dangerous.One match can burn a piece of paper, and then it could burn a house. A small fire can turn into a big fire very quickly. So you &lt;clozeGap responseIdentifier=""/&gt; be careful with matches. Be careful with fire, and it will help you. But if you aren't careful with fire, it may hurt you.</prompt>
+            <subItem QuestionAnalysis="" Identifier="481cd500-2ef0-4d6d-aae7-1b6e27795719" sequenceIndex="1" itemType="singleChoice" subjective="false">
+                <choiceInteraction responseIdentifier="RESPONSE_1" shuffle="true" maxChoices="1">
+                    <prompt />
+                    <simpleChoice identifier="A">many</simpleChoice>
+                    <simpleChoice identifier="B">like</simpleChoice>
+                    <simpleChoice identifier="C">warm</simpleChoice>
+                    <simpleChoice identifier="D">must</simpleChoice>
+                    <simpleChoice identifier="E">about</simpleChoice>
+                </choiceInteraction>
+            </subItem>
+            <subItem QuestionAnalysis="" Identifier="68289c32-3185-4b2a-a095-2bfd232cfda6" sequenceIndex="2" itemType="singleChoice" subjective="false">
+                <choiceInteraction responseIdentifier="RESPONSE_2" shuffle="true" maxChoices="1">
+                    <prompt />
+                    <simpleChoice identifier="A">many</simpleChoice>
+                    <simpleChoice identifier="B">like</simpleChoice>
+                    <simpleChoice identifier="C">warm</simpleChoice>
+                    <simpleChoice identifier="D">must</simpleChoice>
+                    <simpleChoice identifier="E">about</simpleChoice>
+                </choiceInteraction>
+            </subItem>
+            <subItem QuestionAnalysis="" Identifier="8bccf6c3-f3ee-4d10-8db2-3791258d8610" sequenceIndex="3" itemType="singleChoice" subjective="false">
+                <choiceInteraction responseIdentifier="RESPONSE_3" shuffle="true" maxChoices="1">
+                    <prompt />
+                    <simpleChoice identifier="A">many</simpleChoice>
+                    <simpleChoice identifier="B">like</simpleChoice>
+                    <simpleChoice identifier="C">warm</simpleChoice>
+                    <simpleChoice identifier="D">must</simpleChoice>
+                    <simpleChoice identifier="E">about</simpleChoice>
+                </choiceInteraction>
+            </subItem>
+            <subItem QuestionAnalysis="" Identifier="4b4ec49c-fc13-427a-a2b2-bebf4deafbd3" sequenceIndex="4" itemType="singleChoice" subjective="false">
+                <choiceInteraction responseIdentifier="RESPONSE_4" shuffle="true" maxChoices="1">
+                    <prompt />
+                    <simpleChoice identifier="A">many</simpleChoice>
+                    <simpleChoice identifier="B">like</simpleChoice>
+                    <simpleChoice identifier="C">warm</simpleChoice>
+                    <simpleChoice identifier="D">must</simpleChoice>
+                    <simpleChoice identifier="E">about</simpleChoice>
+                </choiceInteraction>
+            </subItem>
+            <subItem QuestionAnalysis="" Identifier="ae375ac2-8f4c-44cd-b79c-dbfe3ac3f465" sequenceIndex="5" itemType="singleChoice" subjective="false">
+                <choiceInteraction responseIdentifier="RESPONSE_5" shuffle="true" maxChoices="1">
+                    <prompt />
+                    <simpleChoice identifier="A">many</simpleChoice>
+                    <simpleChoice identifier="B">like</simpleChoice>
+                    <simpleChoice identifier="C">warm</simpleChoice>
+                    <simpleChoice identifier="D">must</simpleChoice>
+                    <simpleChoice identifier="E">about</simpleChoice>
+                </choiceInteraction>
+            </subItem>
+        </compositeInteraction>
+    </itemBody>
+    <responseProcessing>
+        <responseCondition>
+            <responseIf>
+                <match>
+                    <correct identifier="RESPONSE_1" />
+                    <variable identifier="RESPONSE_1" />
+                </match>
+                <setOutcomeValue identifier="SCORE_1">
+                    <baseValue baseType="float">0.2</baseValue>
+                </setOutcomeValue>
+            </responseIf>
+        </responseCondition>
+        <responseCondition>
+            <responseIf>
+                <match>
+                    <correct identifier="RESPONSE_2" />
+                    <variable identifier="RESPONSE_2" />
+                </match>
+                <setOutcomeValue identifier="SCORE_2">
+                    <baseValue baseType="float">0.2</baseValue>
+                </setOutcomeValue>
+            </responseIf>
+        </responseCondition>
+        <responseCondition>
+            <responseIf>
+                <match>
+                    <correct identifier="RESPONSE_3" />
+                    <variable identifier="RESPONSE_3" />
+                </match>
+                <setOutcomeValue identifier="SCORE_3">
+                    <baseValue baseType="float">0.2</baseValue>
+                </setOutcomeValue>
+            </responseIf>
+        </responseCondition>
+        <responseCondition>
+            <responseIf>
+                <match>
+                    <correct identifier="RESPONSE_4" />
+                    <variable identifier="RESPONSE_4" />
+                </match>
+                <setOutcomeValue identifier="SCORE_4">
+                    <baseValue baseType="float">0.2</baseValue>
+                </setOutcomeValue>
+            </responseIf>
+        </responseCondition>
+        <responseCondition>
+            <responseIf>
+                <match>
+                    <correct identifier="RESPONSE_5" />
+                    <variable identifier="RESPONSE_5" />
+                </match>
+                <setOutcomeValue identifier="SCORE_5">
+                    <baseValue baseType="float">0.2</baseValue>
+                </setOutcomeValue>
+            </responseIf>
+        </responseCondition>
+        <setOutcomeValue identifier="SCORE">
+            <sum>
+                <variable identifier="SCORE_1" />
+                <variable identifier="SCORE_2" />
+                <variable identifier="SCORE_3" />
+                <variable identifier="SCORE_4" />
+                <variable identifier="SCORE_5" />
+            </sum>
+        </setOutcomeValue>
+    </responseProcessing>
+</assessmentItem>
